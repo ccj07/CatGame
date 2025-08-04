@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    /* 背景圖片設定
+    background-image: url(imgs/background_bot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+#game {
+    margin: 20px;
+    font-size: 75px;
+    border-spacing: 6px;
+
+    td {
+        background-color: rgb(210, 210, 210);
+        border: 2px solid rgb(178, 178, 178);
+        width: 140px;
+        height: 140px;
+        /* border: 2px solid gray; */
+    }
+}
+
+#main {
+    margin: auto;
+}
+
+#left {
+    font-size: 40px;
+}
+
+#right {
+    font-size: 40px;
+}
+
+
+#result_block {
+    display: none;
+    /* 預設隱藏 */
+    position: fixed;
+    display: flex;
+    width: 320px;
+    height: 180px;
+    background-color: rgba(135, 206, 250, 0.9);
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 內容直排 */
+    flex-direction: column;
+}
+
+#result_block button {
+    margin-top: 12px;
+}
