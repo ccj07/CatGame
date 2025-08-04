@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2trc2_catgame</title>
+    <link rel="stylesheet" href="catgame.css">
+</head>
+
+<body>
+    <h2>雄女資研</h2>
+    <h1>CatGame</h1>
+    <!-- --- -->
+    <table id="main">
+        <td id="left">
+            <!-- <p style="writing-mode: vertical-rl;">學妹加資研</p> -->
+        </td>
+        <td>
+            <table id="game" style="cursor: pointer;">
+                <tr>
+                    <td id="cell0"></td>
+                    <td id="cell1"></td>
+                    <td id="cell2"></td>
+                </tr>
+                <tr>
+                    <td id="cell3"></td>
+                    <td id="cell4"></td>
+                    <td id="cell5"></td>
+                </tr>
+                <tr>
+                    <td id="cell6"></td>
+                    <td id="cell7"></td>
+                    <td id="cell8"></td>
+                </tr>
+            </table>
+        </td>
+        <td id="right">
+            <!-- <p style="writing-mode: vertical-rl;">電力無極限</p> -->
+        </td>
+    </table>
+
+    <!-- --- -->
+    <p>卯咪: <span id="score">0</span>隻</p>
+    <p>時間: <span id="time">15</span>秒</p>
+    <button onclick="startgame()">開始遊戲</button>
+    <div id="result_block">
+        <p id="result"></p>
+        <button onclick="closeResult()">關閉</button>
+    </div>
+</body>
+<script src="catgame.js"></script>
+
+</html>
