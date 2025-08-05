@@ -17,7 +17,8 @@ body {
         border: 2px solid rgb(178, 178, 178);
         width: 140px;
         height: 140px;
-        /* border: 2px solid gray; */
+        /* 防止反白 */
+        user-select: none;
     }
 }
 
