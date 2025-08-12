@@ -1,10 +1,10 @@
 body {
     text-align: center;
-    /* 背景圖片設定
-    background-image: url(imgs/background_bot.jpg);
+    /* 背景圖片設定 */
+    background-image: url(imgs/background2.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+    background-position: center center;
+    background-size: contain;
 }
 
 #game {
