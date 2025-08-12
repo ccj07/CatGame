@@ -20,6 +20,8 @@ for (let i = 0; i < 9; ++i) {
 }
 
 function startgame() {
+    clearInterval(timer); //這樣應該不會爆
+    clearInterval(cat);
     document.getElementById("result").textContent = "";
     score = 0;
     time = 15;
