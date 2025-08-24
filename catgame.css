@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
 body {
     text-align: center;
     /* 背景圖片設定 */
-    background-image: url(background2.jpg);
+    background-image: url(imgs/background2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #game {
-    margin: 20px;
+    margin: 15px;
     font-size: 75px;
     border-spacing: 6px;
 
@@ -54,4 +55,29 @@ body {
 
 #result_block button {
     margin-top: 12px;
+}
+
+/* GPT */
+
+#leaderboard_block {
+    width: 200px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#leaderboard_block h3 {
+    text-align: center;
+}
+
+#leaderboard_list {
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: "Coiny", system-ui;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
