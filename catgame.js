@@ -1,5 +1,5 @@
 var score = 0;
-var time = 15;
+var time = 10;
 var timer;
 var cat;
 
@@ -24,7 +24,7 @@ function startgame() {
     clearInterval(cat);
     document.getElementById("result").textContent = "";
     score = 0;
-    time = 15;
+    time = 10;
     document.getElementById("score").textContent = score;
     document.getElementById("time").textContent = time;
     // setInterval 每隔一段時間就執行一次某個動作
@@ -57,7 +57,7 @@ function startgame() {
         catwhere.forEach(index => {
             cells[index].textContent = "😺";
         });
-    }, 800);
+    }, 750);
 }
 
 function clearCat() {
